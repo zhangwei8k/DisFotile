@@ -24,7 +24,7 @@ Room.Index.dom = ()=>{
     Time.wait = setInterval(()=>{
         Dom.wait++;
         if(cc.id=="Index") Dom.wait = 0;
-        if(Dom.wait == 6) Room.Nav.back();
+        if(Dom.wait == 30) Room.Nav.back();
     },10000);
 
 };
